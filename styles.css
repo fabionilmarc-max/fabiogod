@@ -1,0 +1,55 @@
+
+h1{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        z-index: 1000;
+        div{
+            width: 300px;
+            height: auto;
+            background-color: blue;
+            padding: 10px;
+        }
+    }
+}
+
+
+
+div h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+color: green;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+   
+}
+
+li::marker {
+    content: "* "; 
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+h1 {
+    color: red;
+}
